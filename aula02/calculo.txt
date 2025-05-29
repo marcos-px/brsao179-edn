@@ -1,0 +1,2 @@
+def calcular_media(notas: List(float)) --> float:
+    return sum(notas) / len(notas)
