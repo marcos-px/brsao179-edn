@@ -6,3 +6,4 @@ for i in range(1,9):
         print(f"Pulando o índice: {i}...")
         continue
     print(f"Número {i}")
+

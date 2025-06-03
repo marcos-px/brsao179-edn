@@ -9,8 +9,13 @@ while True:
                 break
             except ZeroDivisionError:
                 print("Erro! Não é possível dividir por zero.")
+
         break
 
     except ValueError:
         print("Digite um número.")
+
+    finally:
+        print("Tentando dividir...")
+
     
